@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BraveVerse Skincare & Beauty</title>
+  <link rel="stylesheet" href="E-bussines.css">
+  <style>
+    html {
+      scroll-behavior: smooth; /* efek scroll lembut */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigasi -->
+  <nav class="navbar">
+    <div class="logo">BraveVerse Beauty</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#brands">Brands</a></li>
+      <li><a href="#best-deals">Best Deals</a></li>
+      <li><a href="#new-arrivals">New Arrivals</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="btn-shop" onclick="document.getElementById('best-deals').scrollIntoView({behavior:'smooth'})">Shop Now</button>
+  </nav>
+
+  <!-- Bagian Home -->
+  <section id="home" class="banner">
+    <div class="banner-content">
+      <h1>🌸 Be Bold. Be You. Be BraveVerse 🌸</h1>
+      <p>Discover your skin’s new best friend — glowing, hydrated, and healthy!</p>
+      <p><strong>Disc. up to 35% + Free Gift 🎁</strong></p>
+      <button id="shopBtn" onclick="document.getElementById('best-deals').scrollIntoView({behavior:'smooth'})">Shop Now</button>
+    </div>
+  </section>
+
+  <!-- Bagian Brands -->
+  <section id="brands" class="brands">
+    <h2>🌸 Popular Brands</h2>
+    <p>Explore your favorite Korean skincare brands loved by many!</p>
+
+    <div class="brand-grid">
+      <div class="brand-card">
+        <img src="logo_innisfree.png" alt="Innisfree">
+        <h3>Innisfree</h3>
+        <p>Natural ingredients from Jeju Island for fresh, glowing skin.</p>
+        <button class="btn-brand">Explore Products</button>
+      </div>
+
+      <div class="brand-card">
+        <img src="logo_cosrx.png" alt="COSRX">
+        <h3>COSRX</h3>
+        <p>Effective skincare for sensitive skin — gentle yet powerful.</p>
+        <button class="btn-brand">Explore Products</button>
+      </div>
+
+      <div class="brand-card">
+        <img src="logo_laneige.png" alt="Laneige">
+        <h3>Laneige</h3>
+        <p>Hydration experts — discover the power of Water Science™.</p>
+        <button class="btn-brand">Explore Products</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bagian Best Deals -->
+  <section id="best-deals" class="products">
+    <h2>🌿 Our Best Sellers</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="Hyaluronic Acid Hydra Power Essence.WEBP" alt="Hydra Glow Serum">
+        <h3>Hydra Glow Serum</h3>
+        <p>Deep hydration for radiant skin</p>
+      </div>
+
+      <div class="product-card">
+        <img src="IMG_4128.PNG" alt="Pure Clean Face Wash">
+        <h3>Pure Clean Face Wash</h3>
+        <p>Gentle cleansing, refreshing result</p>
+      </div>
+
+      <div class="product-card">
+        <img src="IMG_4129.JPG" alt="Radiant Night Cream">
+        <h3>Radiant Night Cream</h3>
+        <p>Wake up with glowing skin</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bagian New Arrivals -->
+  <section id="new-arrivals" class="new-arrivals">
+    <h2>✨ New Arrivals</h2>
+    <p>Freshly launched skincare picks — just for you!</p>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="new_product1.jpg" alt="Glow Essence">
+        <h3>Glow Essence</h3>
+        <p>Instant glow boost with vitamin complex</p>
+      </div>
+
+      <div class="product-card">
+        <img src="new_product2.jpg" alt="Soothing Toner">
+        <h3>Soothing Toner</h3>
+        <p>Calm and balance your skin barrier</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bagian Contact -->
+  <section id="contact" class="contact">
+    <h2>📞 Contact Us</h2>
+    <p>Email: <a href="mailto:support@braveverse.com">support@braveverse.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/braveverse.official" target="_blank">@BraveVerse.official</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 BraveVerse Beauty | Love Your Skin 💖</p>
+  </footer>
+
+  <script src="E-bussines.js"></script>
+</body>
+</html>
+
